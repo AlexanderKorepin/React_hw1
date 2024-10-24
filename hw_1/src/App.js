@@ -1,0 +1,13 @@
+
+import "./App.css";
+import Message from "./components/Message";
+
+const someTitle = "Домашня работа №1";
+const someText =
+"Развернуть новый проект с использованием create-react-app. Создать компонент Message, отображающий переданный ему props текст.Стилизовать компоненты через css (при желании можно использовать less или sass).Дополнительное задание: Установить расширение React Devtools."
+
+function App() {
+  return <Message title={someTitle} text={someText} />;
+}
+
+export default App;
